@@ -1,0 +1,7 @@
+{
+	"0": "db.collection('database0').find().toArray(function(err,doc){if(doc != null){for(var i=0; i<doc.length; i++) {var name = doc[i].name;console.log(JSON.stringify(doc[i].name)); maxDict[name] = doc[i]; };}; writeJson();});", 
+	"1": "db.collection('database0').find({'data.cf': {$gt: 600}}).toArray(function(err,doc){ if(doc != null){ for(var i=0; i<doc.length; i++) { var name = doc[i].name;console.log(JSON.stringify(doc[i].name)); maxDict[name] = doc[i];}; }; writeJson();});", 
+	"2": "db.collection('database0').find({$or:[{'data.cf': {$gt: 200}},{'data.harm': {$lt: 0.3}}]}).toArray(function(err,doc){ if(doc != null){ for(var i=0; i<doc.length; i++) { var name = doc[i].name;console.log(JSON.stringify(doc[i].name)); maxDict[name] = doc[i];}; }; writeJson();});", 
+	"3": "The next value to  be added"
+	
+}

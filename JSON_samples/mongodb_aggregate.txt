@@ -1,0 +1,5 @@
+$avg
+$sum
+$avg
+$max
+$min

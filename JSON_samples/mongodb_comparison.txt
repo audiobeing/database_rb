@@ -1,0 +1,6 @@
+$eq
+$gt
+$gte
+$lt
+$lte
+$ne

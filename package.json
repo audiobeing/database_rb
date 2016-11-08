@@ -1,0 +1,15 @@
+
+{
+  "name": "dispersion_db",
+  "version": "0.0.0",
+  "dependencies": {
+    "mongoskin": "1.4.13",
+    "mongodb": "~1.4", 
+    "osc": "*", 
+    "express": "*",
+	"ws": "*",
+	"nopt": "*", 
+	"assert": "*"
+    
+  }
+}
